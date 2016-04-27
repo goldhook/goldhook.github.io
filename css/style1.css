@@ -1,0 +1,55 @@
+/* Gold Hook CSS and design by Will Scott
+Version 1.0 - April 2010
+*/
+
+/* Main divs */
+html {height: 100%; width: 100%;}
+body {font-family: Georgia, Trebuchet; font-size: 14px; line-height: 1.9em; background:url(/images/gh_bg-01.png);}
+#bodycontent {margin: 0 112px 26px 112px ;}
+.box {width: 60%; position: relative; background:#eee; overflow: auto; -moz-border-radius: 12px; -webkit-border-radius: 8px; -moz-border-radius-topright: 96px; border-radius: 8px; border-top-right-radius: 96px; webkit-border-top-right-radius: 96px; border: 2px solid #000; display: block; padding: 8px 48px 8px 8px; margin: 0 0px 4px 4em;}
+#header {margin: 8px 0 32px 8px; height: 100%; display: block; overflow: auto;}
+#navigation {position: absolute; display: block; top: 8px; right: 16px; padding: 4px; text-align: right; }
+.footer {padding: 30px 0 0; position: fixed; bottom: 0; height: 50px; background: #666; width: 100%; border-top: 4px solid #eee;}
+.container {height: 100%;}
+
+/* Typography */
+
+@font-face {font-family: Hightower; src: url('/fonts/Htowert.eot') !important;}
+@font-face {font-family: Hightower;  src: url(/fonts/Htowert.ttf) format("truetype"), url(/fonts/Htowert.otf) format("opentype");}
+
+p, a, ul li, th, td {font-size: 1em; color: #333; text-decoration: none;}
+a:hover {color: #333;}
+h1 {font-size: 1.8em; color: #333300;}
+h2 {font-size: 1.6em; color: #333300;}
+h3 {font-size: 1.4em; color: #333;}
+
+.boxhead {line-height: 2em; font-size: 1.5em;}
+.boxlist a {padding: 2px 2px 2px 2px; font-size: 0.8em;}
+.boxlist a:link, a:visited {color: #666;}
+.boxlist a:hover {color: #F4DF1D;}
+.boxlist .boxactive {color: #000; border-bottom: 1px solid black;}
+
+#boxouts, #boxouts1 {margin: 0px;overflow: auto; background: white;margin: 8px; padding: 8px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;  } 
+#boxouts p, #boxouts1 p {font-size: 1.1em; line-height: 1.7em; width: 60%; }
+#boxouts img {float: right; border: 1px solid 000; width: 120px; height: 120px; margin-right: 8em;}
+#projects {width: 75%;}
+.projectbox {float: left; margin: 16px 16px 8px 0; padding: 0.5em; border: 1px solid #F4DF1D; background: #fff; overflow: auto; -webkit-border-radius: 8px; border-radius: 8px; -moz-border-radius: 8px; width: 43%; height: 148px;}
+.projectbox .image {float: left; height: 105px; border: 4px solid #F4DF1D; padding: 2px; }
+.projectbox .image:hover {border: 4px solid #666; }
+.projectbox .image img {width: 120px; valign: middle;} 
+.projectbox h3 {border-bottom: 1px dashed #F4DF1D; text-align: right; margin-left: 132px;}
+.projectbox h3:hover {border-bottom: 1px dashed #666; }
+.projectbox p {text-align: right; padding: 5px;}
+.footer p {float: left; margin: 2px 10px 0 20px; text-align: right; color: #eee;}
+
+/* Navigation */
+#whatwelike a.about, #whosinvolved a.people, #projects a.projects,
+#contact a.contact {color: #fff; background: #930;}
+#navigation {background-color:rgba(230,240,220,0.1);margin-top: 1.1em; }
+#navigation ul li {font-size: 3.8em; font-family: Hightower; letter-spacing: -2px; line-height: 1.1em; list-style: none;}
+#navigation ul li a {color: #000; padding-bottom: 2px;}
+#navigation ul li a:hover {color: #333; border-bottom: 4px solid #333;}
+a.active {color: #333; border-bottom: 4px solid #F4DF1D;}
+
+/* Images */
+#header img {padding: 10px 0 10px 10px;}

@@ -1,0 +1,221 @@
+@import url("temp-style.css");)
+
+/* Overall  styles */
+body {background: url(/images/floorboard_bg.jpg); font-size: 14px;  line-height: 1.8em; width: 100%; height: 100%; }
+#container {height: 100%; margin: 0.2em auto 0 auto; overflow: auto; background-color: rgba(102,102,51,0.3); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#990E4B2D,endColorstr=#990E4B2D)"; /* IE8 */  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#999966,endColorstr=#999966); zoom: 1; -moz-border-radius:18px; -webkit-border-radius:18px; border-radius:18px;  border: 2px solid #CCCC99; }
+#header {margin: 0 0 0 2em; }
+.lightround {overflow: auto; -moz-box-shadow: 0px 0px 12px #ccff33; -webkit-box-shadow: 0px 0px 12px #ccff33; box-shadow: 0px 0px 12px #ccff33; background-color: #FFFBE8; -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; padding: 12px; margin: 2px;}
+
+/*Typography */
+
+@font-face {
+    font-family: 'Chevin';
+    src: url('/fonts/chevl___-webfont.eot');
+    src: url('/fonts/chevl___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/chevl___-webfont.woff') format('woff'),
+         url('/fonts/chevl___-webfont.ttf') format('truetype'),
+         url('/fonts/chevl___-webfont.svg#Chevin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+p, li, tr, td {font-family: Georgia, "Lucida Sans Unicode"; font-size: 1em; color: #333;}
+h1 {font-size: 3em; font-family: Chevin, Arial; }
+h2 {font-size: 2em; font-family: Chevin, Arial; color: #CCFF33;}
+h3 {font-size: 1.8em; font-family: Chevin, Arial; letter-spacing: 1px; }
+h4 {font-size: 1.8em; font-family: Chevin, Arial; letter-spacing: 1px;}
+p em, p a { font-style: italic;}
+a {text-decoration: none;}
+a img {border: none;}
+ul li {list-style: none;}
+h2.title {font-size: 3.8em; margin-bottom: 0.5em;}
+blockquote {float: right; text-align: right; width: 40%; display: block; font-size: 1.6em; font-family: Chevin; padding: 1em; background: #eee; color: #669933;}
+p.citee {font-size: 0.8em; font-style: italic; color: #999;}
+p.attribution {font-size: 0.6em; float: right; background:#eee; -moz-border-radius: 4px; padding: 4px;}
+
+.about_sectors h4 {margin: 4px; color: #333;}
+
+/*Header and navigation*/
+.logo{float: right; padding: 0 2em 0 0;}
+.logo h1 {margin: 0;}
+.logo h1 a {background: url("/images/btlogo.png") top no-repeat; display: block; margin: 4px 8px; width: 162px; height: 90px; text-align: left; text-indent: -9233px;}
+.navigation {margin: 1em 0 0 1em; overflow: auto; border-bottom:  1px solid #cccc99;}
+.chevron {color: #ccccc99; padding: 0; margin: 0;}
+.coda-nav ul {margin: 1em 0 0 -2em;}
+.coda-nav ul li {float: left; padding-right: 1em; text-shadow: -1px 1px 2px #333; }
+.coda-nav ul li ul {margin: 0; }
+.coda-nav ul li ul li {margin: 0; font-size: 1em; color:#cccc99;; text-align: justify; line-height: 1.2em;}
+.coda-nav ul li a {font-size: 2em; color: #ccff33; font-family: Chevin; text-decoration: underline; }
+.coda-nav ul li a:hover {color: #D9CE3B; }
+.coda-nav ul li a:active {color: #996633;}
+.coda-nav ul li a.current {color: #D9CE3B;}
+
+/* Page styles - home */
+#homebox p {float: right; border-bottom: 1px solid #999; width: 50%; font-size: 1.3em; color: #777; margin: 0 24px 12px 24px; padding-top: 0.5em;}
+#homebox p.last {clear:both;}
+#homebox {background:url("/images/homepage_image.jpg") top left no-repeat; height: 300px;  margin: 0em; padding-right: 2.5em; border-radius:10px; -moz-border-radius: 20px; -webkit-border-radius: 10px;}
+
+/* Page styles - shared */
+.coda-slider-wrapper { padding: 4px 0; margin: 0 0 0 2em;}
+.coda-slider-no-js .coda-slider { height: auto; padding-right: 20px }
+.coda-slider, .coda-slider .panel { width: 100%;} 
+.coda-slider .panel-wrapper { margin: 0 8px 4px 2em; }
+.coda-slider-wrapper { clear: both; overflow: auto }
+.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {}
+.coda-slider-wrapper.arrows .coda-slider { margin: 0 10px }
+.coda-slider { float: left; position: relative; overflow: hidden; }
+.coda-slider .panel { display: block; float: left; height: auto; width: auto;}
+.coda-slider .panel-container { position: relative;}
+.boxout_right ul {margin: 0 1em 0 6px; padding: 0; }
+.boxout_right ul li {margin: 6px 0 6px 0; color: #fff; padding: 2px; line-height: 1.5em; } 
+.boxout_right h3 {font-size: 1.6em; font-weight: normal; font-family: Chevin, Arial; margin: 0; padding: 0 6px 0 6px;}
+
+/* Page styles - navigation (shared) */ 
+ul.togglestates li a, ul.servicetabs li a {color: #0e4a2c;  display: block; padding: 0 20px; outline: none;}
+ul.togglestates li a:hover,ul.servicetabs li a:hover {color: #FFFBE8; background: #8B704C;  }
+ul.togglestates li.shown, ul.servicetabs li.shown, ul.togglestates li.shown a:hover, ul.servicetabs li.shown a:hover  {color: #fff; background: #8B704C; ; height: auto; }
+
+/*Page styles - About*/
+ul.togglestates {border-bottom: 1px solid #999;margin: 0; padding: 0; height: 32px; }
+ul.togglestates li {font-family: Chevin, Arial; font-size: 1.6em; color: #D9CE3B; float: left; margin: 0 0 0 1.2em; padding: 0; height: 31px; line-height: 31px;  margin-bottom: -1px; overflow: hidden; position: relative;}
+#togglecontent {padding: 0.8em; clear: both;}
+#togglecontent img, .toggleservice img  {border: 4px solid white; -webkit-box-shadow: 0 0 4px #000; -moz-box-shadow: 0 0 4px #000; box-shadow: 0 0 4px #000; margin: 6px auto 0 12px;}
+.about_content p {text-align: left;}
+.about_content h4 {border-bottom: 1px solid #999; font-weight: normal; font-family: Chevin; font-size: 2em;}
+.boxout_right {float: right; width: 45%; -moz-box-shadow: 0 0 6px #eee555; -webkit-box-shadow: 0 0 6px #eee555; box-shadow: 0 0 6px #555; margin-left: 1em; padding: 4px; background: #eee;}
+ul.column1 {width: 50%; display: block; float: left; margin: 4px;}
+ul.column2  {display: block; margin: 18px 0 3em 0;}
+.about_sectors {float: left; width: 30%; height: auto; padding: 0.4em; margin: 0.4em; background: #eee;}
+
+/*Page styles - Services */
+.servicesleft {display: block; float: left; width: 28%; margin: 0; padding: 0; border-right: 1px solid #777; }
+ul.servicetabs {margin: 0; padding: 0;}
+ul.servicetabs li {margin: 0; font-family: Chevin, Arial; font-size: 1.6em;  color: #ccff33; line-height: 1.2em; }
+ul.servicetabs li a {margin: 0; font-family: Chevin, Arial; font-size: 1.2em; line-height: 1.2em; overflow: hidden; position: relative;}
+.toggleservice {margin: 0; padding: 0; display: block; }
+.service_content {float: left;  margin: 0 0 0 2em; padding: 0; width: 60%;}
+.service_content ul li {background: #8B704C; color: #D8D0AF; font-size: 1.3em; margin-bottom: 0.4em; padding: 4px;}
+.service_content h3 {padding: 0; margin: 0; font-weight: normal;} 
+a.toggle {font-size: 1.6em; font-family: Chevin; margin-right: 2em;}
+
+/* Page styles - Contact */
+.left {float: left; padding: 4px; height: 126px; width: 102px;}
+.left_last {clear: all;}
+
+fieldset {padding: 4px; border: none;}
+label {font-family: Arial; line-height: 36px; font-size: 1.4em; font-style: normal; color: #777; letter-spacing: 0.083em; }
+input, textarea {margin: 4px;float: right !important;
+	width: 210px;
+	display: block;
+	padding: 5px 10px;
+	font: 13px Georgia;
+	border: 1px solid #bbb;
+	background: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: -webkit-gradient(linear, left bottom, left top, from(#fff), to(#f9f9f9));
+	background: -moz-linear-gradient(top, #f9f9f9, #fff);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFF9F9F9, endColorstr=#FFFFFFFF);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFF9F9F9, endColorstr=#FFFFFFFF)";
+	-webkit-box-shadow: 0 -1px 0 rgba(0,0,0, 0.1), 0 1px 0 rgba(255,255,255, 0.7);
+	-moz-box-shadow: 0 -1px 0 rgba(0,0,0, 0.1), 0 1px 0 rgba(255,255,255, 0.7);
+	box-shadow: 0 -1px 0 rgba(0,0,0, 0.1), 0 1px 0 rgba(255,255,255, 0.7);
+	-webkit-background-clip: padding-box;}
+input, textarea { cursor: pointer; }
+
+/* Footer */
+#footer {width: 900px; height: 100%; margin: 0 auto 0 auto; }
+.footer_info ul {list-style: none; text-align: right;}
+.footer_info ul li {display: inline; }
+.footer_info ul li a {margin-right: 1em; color: #8B704C; border-bottom: 2px solid #8B704C;}
+.footer_info ul li a:hover {color: #D9CE3B; border-bottom: 2px solid #D9CE3B;}
+.footer_info ul li a:selected {color: #996633; border-bottom: 2px solid #996633;}
+.coda-nav ul li a {font-size: 2em; color: #; font-family: Chevin; text-decoration: underline; }
+
+/**
+ * Grid
+ */
+#grid{
+
+    /* Dimensions - same width as your grid with gutters */
+    width: 900px;
+
+    /* Grid (left-aligned)
+    position: absolute;
+    top: 0;
+    left: 0;
+    */
+
+    /* Grid (centered) */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -450px;
+
+}
+
+/**
+ * Vertical grid lines
+ *
+ * Set the column width taking the borders into consideration,
+ * and use margins to set column gutters.
+ */
+#grid div.vert{
+
+    width: 128px;
+    border: solid #000;
+    border-width: 0 1px;
+    margin-right: 17px;
+
+}
+
+#grid div.vert.first-line{
+
+    margin-left: 17px;
+
+}
+
+
+/**
+ * Horizontal grid lines, defined by your base line height
+ *
+ * Remember, the CSS properties that define the box model:
+ * visible height = height + borders + margins + padding
+ */
+#grid div.horiz{
+
+    /* 20px line height */
+    height: 17px;
+    border-bottom: 1px dotted #333;
+    margin: 0;
+    padding: 0;
+
+}
+
+/**
+* Classes for multiple grids
+*
+* When using more than one grid, remember to set the numberOfGrids 
+* option in the hashgrid.js file.
+*/
+#grid.grid-1 div.vert{
+
+    /* Vertical grid line colour for grid 1 */
+    border-color: #000;
+
+}
+#grid.grid-2{
+
+    /* Adjustments */
+    padding: 0 147px;
+    width: 600px;
+
+}
+#grid.grid-2 div.vert{
+
+    /* Vertical grid line colour for grid 2 */
+    border-color: #000;
+
+}

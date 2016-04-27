@@ -1,0 +1,77 @@
+body {font-family: 'Dosis', Arial, sans-serif; background:url('/images/paintedbg.jpg') top left;}
+#contain {width: 99%; margin: 0 auto; background:rgba(14,75,45,0.6); padding: 0 6px 0 6px; -moz-border-radius:18px; border: 2px solid #EFD099; }
+.halfspan {
+					float: left;
+					padding: 5px;
+					position: relative;
+					}
+
+.hometext {
+					position: relative;
+					width: 520px;
+					height: 520px;
+					border-radius: 260px;
+					}
+.evidence {background: rgba(77,161,222,0.6); margin: 1em auto;}
+.content {background: rgba(217,217,54,0.6);}
+					
+.evidence h3, .content h3{
+					font-size: 6em; 
+					position: absolute; 
+					opacity: 0.1; 
+					color: #FFFFCC;
+	
+					}
+					
+.evidence h3 {left: 0.2em; top: 1em; -webkit-transform: rotate(-45deg);}
+.content h3 {left: 1.2em; top: 0.6em;  -webkit-transform: rotate(-315deg);}
+
+.hometext h4 
+					{
+					font-family: 'Dosis', Arial; 
+					font-weight: 200; 
+					font-size: 3em; 
+					padding: 1.2em 0 2em 2em;
+					margin: 0;
+					text-align: center;
+					width: 60%
+					}
+					
+.evidence h4 {color: #ffff99; text-shadow: -2px 2px 2px #333;}
+.content h4 {color: #333; text-shadow: -2px 2px 2px #ffff99;}
+
+.evidence ul, .content ul {width: 78%;}
+.evidence ul {margin: 0 0 0 2em;}
+.content ul {margin: 0 0 0 3.5em;}
+
+.hometext ul li {font-family: 'Dosis', Arial; color: #ffff99; text-align: center; font-size: 1.5em; text-shadow: -1px 1px 1px #666;}
+.hometext ul li ul {padding: 4px; background: inherit; }
+.hometext ul li ul li {font-size: 0.7em; color: #ffffff; padding: 2px; border-radius: 2px; text-align: center; margin-left: -1em;} 
+
+
+#overlap{
+				 border: 0; 
+				 height: 70px;
+				 width: 70px;
+				 left: 450px;
+				 top: -300px;
+				 position: relative;
+				 text-align: center;
+				 z-index: 10;
+				 opacity: 1;
+				 }
+
+.evidence {}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {display: inline-block;width: 100%;}
+ html[xmlns] .clearfix {display: block;}
+ * html .clearfix {height: 1%;}
